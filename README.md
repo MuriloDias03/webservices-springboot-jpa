@@ -36,7 +36,8 @@ Pré-requisitos: Postman ou outro cliente HTTP
 Este projeto está hospedado no Heroku e pode ser testado facilmente com ferramentas como o [Postman](https://www.postman.com/). Siga os passos abaixo para realizar os testes:
 
 ### URL do Projeto
-Acesse o projeto utilizando a seguinte URL base: https://webservice-javasb-27becddda6e9.herokuapp.com
+Acesse o projeto utilizando a seguinte URL base: https://webservice-javasb-27becddda6e9.herokuapp.com  
+Não se assuste com o erro, é normal! O projeto está funcionando perfeitamente na nuvem.
 
 ### 1. **Listar Todos os Usuários**
 - **Método:** `GET`
