@@ -11,7 +11,7 @@ Este projeto é um sistema de web services desenvolvido em Java utilizando o fra
 
 Entre as principais funcionalidades estão a criação de um modelo de domínio detalhado com associações e validações, a implementação de operações CRUD, permitindo gerenciar registros no banco de dados, e um sistema personalizado de tratamento de exceções que oferece respostas claras em casos de erro. O projeto utiliza o banco de dados H2 para testes, com configurações específicas para inicialização e povoamento, além de estar preparado para integração com PostgreSQL em ambientes de produção.
 
-Além disso, o projeto está configurado para ser implantado na nuvem através do Heroku, para executar o projeto. Desenvolvido com ferramentas modernas como Maven, Java 17 e Spring Initializr, este sistema é uma demonstração prática de boas práticas de desenvolvimento, sendo ideal para aprendizado e aplicação em projetos reais.
+Além disso, o projeto está configurado para ser implantado na nuvem através do Heroku, para executar o projeto. Desenvolvido com ferramentas modernas como Maven, Java 17 e Spring Initializr, este sistema é uma demonstração de boas práticas de desenvolvimento, sendo para o aprendizado e também em aplicações em projetos reais.
 
 >## 📄 Modelo conceitual
 
