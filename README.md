@@ -11,7 +11,7 @@ Este projeto é um sistema de web services desenvolvido em Java utilizando o fra
 
 Entre as principais funcionalidades estão a criação de um modelo de domínio detalhado com associações e validações, a implementação de operações CRUD, permitindo gerenciar registros no banco de dados, e um sistema personalizado de tratamento de exceções que oferece respostas claras em casos de erro. O projeto utiliza o banco de dados H2 para testes, com configurações específicas para inicialização e povoamento, além de estar preparado para integração com PostgreSQL em ambientes de produção.
 
-Além disso, o projeto está configurado para ser implantado na nuvem através do Heroku, para executar o projeto. Desenvolvido com ferramentas modernas como Maven, Java 17 e Spring Initializr, este sistema é uma demonstração de boas práticas de desenvolvimento, sendo para o aprendizado e também em aplicações em projetos reais.
+Desenvolvido com ferramentas modernas como Maven, Java 17 e Spring Initializr, este sistema é uma demonstração de boas práticas de desenvolvimento, sendo para o aprendizado e também em aplicações em projetos reais.
 
 >## 📄 Modelo conceitual
 
@@ -25,68 +25,11 @@ Além disso, o projeto está configurado para ser implantado na nuvem através d
 - Maven
 - H2 Database
 - Postgresql
-- Heroku
 - Postman
 - Apache Tomcat
 
 >## 👨🏻‍💻 Como executar o projeto
-Pré-requisitos: Postman ou outro cliente HTTP
-
-Este projeto está hospedado no Heroku e pode ser testado facilmente com ferramentas como o [Postman](https://www.postman.com/). Siga os passos abaixo para realizar os testes:
-
-### URL do Projeto
-Acesse o projeto utilizando a seguinte URL base: https://webservice-javasb-27becddda6e9.herokuapp.com  
-Não se assuste com o erro, é normal! O projeto está funcionando perfeitamente na nuvem.
-
-### 1. **Listar Todos os Usuários**
-- **Método:** `GET`
-- **Endpoint:** `/users`
-- **Descrição:** Retorna todos os usuários cadastrados.
-- **Exemplo de Uso no Postman:**  
-Faça uma requisição `GET` para: https://webservice-javasb-27becddda6e9.herokuapp.com/users
-
-### 2. **Obter um Usuário por ID**
-- **Método:** `GET`
-- **Endpoint:** `/users/{id}`
-- **Descrição:** Retorna os detalhes de um usuário específico.
-- **Exemplo de Uso no Postman:**  
-  Substitua `{id}` pelo ID do usuário como: https://webservice-javasb-27becddda6e9.herokuapp.com/users/1
-
-### 3. **Criar um Novo Usuário**
-- **Método:** `POST`
-- **Endpoint:** `/users`
-- **Descrição:** Adiciona um novo usuário ao sistema.
-- **Cabeçalho Content-Type:** `application/json`
-- **Exemplo de Corpo da Requisição:**
-  ```json
-  {
-    "name": "Maria Rosa",
-    "email": "mariarosa@gmail.com",
-    "phone": "977557755",
-    "password": "123456"
-  }
-  ```
-
-### 4. **Atualizar um Usuário Existente**
-- **Método:** `PUT`
-- **Endpoint:** `/users/{id}`
-- **Descrição:** Atualiza as informações de um usuário específico.
-- **Cabeçalho Content-Type:** `application/json`
-- **Exemplo de Corpo da Requisição:**
-  ```json
-  {
-    "name": "Bob Green",
-    "email": "bob.green@gmail.com",
-    "phone": "977557756"
-  }
-  ```
-
-### 5. **Deletar um Usuário**
-- **Método:** `DELETE`
-- **Endpoint:** `/users/{id}`
-- **Descrição:** Remove um usuário do sistema.
-- **Exemplo de Uso no Postman:**  
-  Substitua `{id}` pelo ID do usuário como: https://webservice-javasb-27becddda6e9.herokuapp.com/users/1
+Por alguns problemas, tive que retirar a aplicação da nuvem que estava hospedada na plataforma Heroku.
 
 ># 🧙🏼‍♂️ Autor
 
